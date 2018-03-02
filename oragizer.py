@@ -57,7 +57,6 @@ def delete_file_dir(p, dir_path, *other_dir):
             print Fore.RED + Back.BLACK + Style.BRIGHT + (
                 '\nCan not delete source directory. ERROR message:\n %s') % e
     # If p = 2 then delete duplicate files
-
     elif p == 2:
         dup = dir_path
         for key, value in dup.iteritems():
